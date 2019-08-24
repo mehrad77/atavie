@@ -1,0 +1,33 @@
+{
+  "name": "atavie",
+  "description": "Atavie Bot! A bot to inform Zavie managers that you'd come to Zavie on weekends too!",
+  "version": "0.0.2",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.19.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "nedb-promises": "^4.0.0",
+    "telegraf": "^3.32.0"
+  },
+  "scripts": {
+    "dev": "nodemon --watch 'src/**/*.ts'  --exec 'ts-node' index.ts",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehrad77/atavie.git"
+  },
+  "keywords": [
+    "telegram-bot"
+  ],
+  "author": "Mehrad77 <mehrad77@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mehrad77/atavie/issues"
+  },
+  "homepage": "https://github.com/mehrad77/atavie#readme"
+}
